@@ -9,8 +9,7 @@ const Navbar = () => {
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
                 <Link to='/' className="navbar-brand">
-                  {" "}
-                  <img src={logo} alt="logoooo" />{" "}
+                  <img src='' alt="logoooo" />
                 </Link>
                 <button
                   className="navbar-toggler"
