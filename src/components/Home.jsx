@@ -11,6 +11,7 @@ import test2 from "../img/testimonial_img_2.png";
 import test3 from "../img/testimonial_img_3.png";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="home">
@@ -75,7 +76,7 @@ const Home = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single_member_counter">
                 <span className="counter">820</span>
-                <h4>Ofline Students</h4>
+                <h4>Offline Students</h4>
               </div>
             </div>
           </div>
@@ -83,7 +84,7 @@ const Home = () => {
       </section>
       {/* member_counter counter end */}
       {/*Top courses start*/}
-      <section className="special_cource ">
+      <section className="special_cource">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-5">
@@ -93,19 +94,18 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row ">
           <div className="col-sm-6 col-lg-4">
               <div className="single_special_cource">
                 <img src={course1} className="special_img" alt="" />
                 <div className="special_cource_text">
-                  <a href="course-details.html" className="btn_4">
+                  <Link to="course/1" className="btn_4">
                     Wordpress
-                  </a>
+                  </Link>
                   <h4>$140.00</h4>
-                  <a href="course-details.html">
-                    {" "}
-                    <h3>Wordpress Development</h3>{" "}
-                  </a>
+                  <Link to="course/1">
+                    <h3>Wordpress Development</h3>
+                  </Link>
                   <p>
                     Which whose darkness saying were life unto fish wherein all
                     fish of together called

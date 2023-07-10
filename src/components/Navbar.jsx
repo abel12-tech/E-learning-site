@@ -27,25 +27,15 @@ const Navbar = () => {
                   id="navbarSupportedContent"
                 >
                   <ul className="navbar-nav align-items-center">
-                    <li className="nav-item active">
-                      <Link to='/' className="nav-link" >
-                        Home
-                      </Link>
-                    </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link to='/about-us' className="nav-link">
                         About
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <Link to='/courses' className="nav-link" >
                         Courses
                       </Link>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog.html">
-                        Blog
-                      </a>
                     </li>
                     <li className="nav-item dropdown">
                       <a
@@ -57,17 +47,17 @@ const Navbar = () => {
                         aria-haspopup="true"
                         aria-expanded="false"
                       >
-                        Pages
+                        Categories
                       </a>
                       <div
                         className="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
                         <a className="dropdown-item" href="single-blog.html">
-                          Single blog
+                          Web Development
                         </a>
                         <a className="dropdown-item" href="elements.html">
-                          Elements
+                          App Development
                         </a>
                       </div>
                     </li>
@@ -78,7 +68,7 @@ const Navbar = () => {
                     </li>
                     <li className="d-none d-lg-block">
                       <a className="btn_1" href=".">
-                        Get a Quote
+                        Sign Up
                       </a>
                     </li>
                   </ul>
