@@ -12,8 +12,8 @@ function App() {
         <Route exact path="/" element ={<Home/>}></Route>
         <Route path='/about-us' element ={<About/>}></Route>
         <Route path='/contact-us' element ={<Contact/>}></Route>
-        <Route path='/courses' element={<Courses/>}></Route>
-        <Route path="/course/:id" element ={<CourseDetail/>}></Route>
+        <Route path='/course' element={<Courses/>}></Route>
+        <Route path="/:id" element ={<CourseDetail/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

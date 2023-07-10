@@ -25,8 +25,7 @@ const Home = () => {
             <div className="col-lg-6  col-xl-6">
               <div className="banner_text">
                 <div className="banner_text_iner">
-                  <h5>Every child yearns to learn</h5>
-                  <h1>Making Your Childs World Better</h1>
+                  <h1>Make Your Minds World Better</h1>
                   <p>
                     Replenish seasons may male hath fruit beast were seas saw
                     you arrie said man beast whales his void unto last session
@@ -99,11 +98,11 @@ const Home = () => {
               <div className="single_special_cource">
                 <img src={course1} className="special_img" alt="" />
                 <div className="special_cource_text">
-                  <Link to="course/1" className="btn_4">
+                  <Link to="/1" className="btn_4">
                     Wordpress
                   </Link>
                   <h4>$140.00</h4>
-                  <Link to="course/1">
+                  <Link to="/1">
                     <h3>Wordpress Development</h3>
                   </Link>
                   <p>
@@ -148,14 +147,14 @@ const Home = () => {
               <div className="single_special_cource">
                 <img src={course2} className="special_img" alt="" />
                 <div className="special_cource_text">
-                  <a href="course-details.html" className="btn_4">
+                  <Link to="/2" className="btn_4">
                     design
-                  </a>
+                  </Link>
                   <h4>$160.00</h4>
-                  <a href="course-details.html">
+                  <Link to="/2">
                     {" "}
                     <h3>Web UX/UI Design </h3>
-                  </a>
+                  </Link>
                   <p>
                     Which whose darkness saying were life unto fish wherein all
                     fish of together called
@@ -198,14 +197,14 @@ const Home = () => {
               <div className="single_special_cource">
                 <img src={course3} className="special_img" alt="" />
                 <div className="special_cource_text">
-                  <a href="course-details.html" className="btn_4">
+                  <Link to="/3" className="btn_4">
                     Wordpress
-                  </a>
+                  </Link>
                   <h4>$140.00</h4>
-                  <a href="course-details.html">
+                  <Link to="/3">
                     {" "}
                     <h3>Wordpress Development</h3>{" "}
-                  </a>
+                  </Link>
                   <p>
                     Which whose darkness saying were life unto fish wherein all
                     fish of together called
